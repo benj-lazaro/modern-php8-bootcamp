@@ -1,0 +1,31 @@
+Resources And Links
+-------------------
+- A collection of links & tools that will help throhgout the course
+
+
+- Community & Socials
+    - Discord (https://discord.gg/5DKWUeG9Nb)
+    - Author's Website (https://www.fadocodecamp.com/)
+    - Author's YouTube (https://www.youtube.com/@fadocodecamp)
+    - Author's X (https://x.com/piotr_jura)
+    - Author's LinkedIn (https://www.linkedin.com/in/piotr-j-24250b257/)
+
+
+- Source Code
+    - Course Repository (https://github.com/piotr-jura-udemy/master-php)
+
+
+- Development Environment
+    - Nerd fonts (https://www.nerdfonts.com/)
+        - Cascadia Code
+        - Fira Code
+        - Dank Mono
+
+    - VS Code Extensions
+        - PHP Intelephense
+        - SQLite Viewer
+
+    - VS Code Shortcuts
+        - CTRL + j  = Show / Hide terminal
+        - CTRL + P  = Display list of files
+
