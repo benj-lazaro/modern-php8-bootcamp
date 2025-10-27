@@ -1,0 +1,32 @@
+Start Here: Your First Program In 10 Minutes
+--------------------------------------------
+- To install PHP the easy way
+    - Online installer (https://php.new/)
+    - Installs PHP 8.4 + Composer + Laravel
+
+    - NOTE: NO need to perform if XAMPP's is already installed
+
+
+- Write the first PHP Program named "first.php"
+    - To declare a variable in PHP
+        - Prefix the variable name with a "$"
+        
+    - A valid variable name starts with a letter or underscore
+        - Followed by any number of letters, numbers or underscores
+
+    - To assign a value to a variable
+        - Use the operator "="
+        - Followed by the value
+
+    - Reference (https://www.php.net/manual/en/language.variables.basics.php)
+
+    - Declare the variables "$name" and "$message"
+        - Assign their corresponding values
+
+    - To add a linebreak
+        - Use the escape character "\n"
+
+
+- To run the PHP program "first.php" from the terminal
+    
+    php first.php
