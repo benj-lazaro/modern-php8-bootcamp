@@ -1,0 +1,65 @@
+Where Does PHP Fit In 
+---------------------
+- PHP interpreter alone is NOT enough to create a dynamic website
+    - The following is a high-level overview where PHP comes into play
+    - What are the other things required to have a working website  
+
+
+- A "client" is a person using a web browser 
+    - To access a website or server application
+
+
+- A "web server" software (e.g. Apache, Nginx, etc.)
+    - Hosts a website or server application
+
+    - Accepts requests from a client
+        - Sends back a response to the corresponding request to the client
+
+    - Passes PHP code to the interpreter via "FastCGI" module
+        - Simply a protocol that web servers use
+            - To communicate with external programs e.g. PHP interpreter
+
+
+- A "PHP FPM "(PHP FastCGI Process Manager)
+    - It is an implementation of the "FastCGI" protocol for PHP
+        
+    - Manages processes, individually referred as "Worker Process" that
+        - Can do something with the PHP code
+
+    - When the web server forwards the request to the PHP FPM
+        - One of the "Worker Process" forwards the PHP code to the PHP interpreter
+        - Retrieves the output returned by the PHP interpreter
+    
+
+- PHP interpreter receives the PHP code, utilitizes the following & then returns the output
+    - Tokenizer
+        - Breaks down PHP code into tokens
+
+    - Parser
+        - Creates an Abstract Syntax Tree (AST)
+        - Tree representation of the code flow
+
+    - Compiler
+        - Generates opcodes
+
+        - If available, uses an "OpCache" that keeps
+            - Compiled opcodes between subsequent requests inside the OpCache
+    
+    - Executor (Zend Engine)
+        - Executes the generated opcodes
+
+        - Interacts with external processes or programs
+            - e.g. fetch data from the database software
+            - e.g. work with the filesystem
+            - e.g. extended functionalities via PHP extensions
+    
+        - PHP extensions
+            - Created by the PHP community
+                - Typically written in the C-language
+            
+            - Idea is to ensures that PHP at runtime is kept pure
+                - Any need for PHP to work with an external technology
+                - Then this functionality is written as an extension
+
+            - By default, PHP is shipped with a set of popular extensions
+            
