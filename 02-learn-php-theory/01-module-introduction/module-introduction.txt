@@ -1,0 +1,9 @@
+Module Introduction
+-------------------
+- This section focuses on:
+    - The place of PHP in modern software development
+    
+    - What is required to create & run a website
+        - How does PHP fit in
+
+    - Whole PHP ecosystem
