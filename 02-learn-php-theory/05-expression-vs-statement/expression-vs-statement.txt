@@ -1,0 +1,13 @@
+Expression vs Statement
+-----------------------
+- An expression is a statement that ALWAYS return a result
+
+    $result = 4 * 3 + 5;
+
+
+- A statement executes an action & control flow of the program
+
+    if (true) {
+        echo "Always right!";
+    }
+
