@@ -1,0 +1,41 @@
+What Is PHP
+-----------
+- It is a server-side programming language
+    - It was designed for web development in mind
+    - But can be used for general purpose programming
+
+
+- Features
+    - It is open source
+        - Source code publicly available to everyone
+
+    - It is cross platform 
+        - Runs on Linux, Mac & Windows operating system
+
+    - It has an extensive built-in library
+
+
+- Use case
+    - To create dynamic web pages
+        - For the server-side programming (back-end)
+
+    - To create command-line utilities
+
+
+- Different aspects to learn about PHP
+    - Language
+        - Data Types
+        - Control Structures
+        - Functions & Classes
+        - Error Handling
+
+    - Runtime
+        - Execution Process
+        - Memory Management
+        - Garbage Collection
+
+    - Features
+        - Sessions & Cookies
+        - File Uploads
+        - Database Interactions
+        - Web Request & Response
