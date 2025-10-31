@@ -1,0 +1,9 @@
+Quiz 01: Introduction to PHP
+----------------------------
+- Is PHP a compiled language?
+    - Answer: No, PHP is an interpreted language
+
+
+- Does PHP require semicolons?
+    - Answer: Yes, PHP requires semicolons to end statements
+
