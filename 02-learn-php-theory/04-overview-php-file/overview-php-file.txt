@@ -1,0 +1,27 @@
+Quick Overview Of a PHP File
+----------------------------
+- PHP code is written in a file with the file extension of ".php"
+
+
+- Inside a PHP file requires a start tag "<?php"
+    - Embedded PHP code w/in a HTML document requires
+        - A starting tag "<?php"
+        - An ending tag "?>"
+
+
+- Every statement requires a semicolon ";" at the end EXCEPT
+    - At the closing curly brace "}" of an "if-else" statement
+
+        if (<condition>) {
+            // statement;
+        } else {
+            // statement;
+        }
+
+    - Declaration to enable strict types
+
+        declare(strict_types=1)
+
+    - Declaration of namespaces
+
+        namespace App\Models
