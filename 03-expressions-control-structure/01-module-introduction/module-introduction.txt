@@ -1,0 +1,19 @@
+Module Introduction
+-------------------
+- This section focuses on:
+    - Expressions
+    
+    - Data Types
+    
+    - Conditionals
+        - if statement
+        - switch
+        - match
+
+    - Loops
+        - while
+        - for
+        - do..while
+        - foreach
+    
+    - Require / Include
