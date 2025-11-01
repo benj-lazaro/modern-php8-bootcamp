@@ -1,0 +1,11 @@
+Coding Exercise 01: Temperature Converter
+-----------------------------------------
+- Create a simple temperature converter that 
+    - Transforms a Celsius temperature to Fahrenheit
+
+    - Follow the steps embedded in the code comments 
+        - To complete the task
+
+    - Remember to use proper PHP syntax & mathemtical operations
+        - To perform the conversion accurately
+        
