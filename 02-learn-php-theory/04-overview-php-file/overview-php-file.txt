@@ -18,10 +18,6 @@ Quick Overview Of a PHP File
             // statement;
         }
 
-    - Declaration to enable strict types
-
-        declare(strict_types=1)
-
     - Declaration of namespaces
 
         namespace App\Models
