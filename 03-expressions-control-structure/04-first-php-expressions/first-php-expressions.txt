@@ -1,0 +1,91 @@
+First PHP Expressions
+---------------------
+- The PHP "echo" statement is a language construct that
+    - Accepts multiple arguements
+    - Outputs a string or value of an expression
+    - Provide NO return value
+    - Reference (https://www.php.net/manual/en/function.echo.php)
+
+Syntax:
+
+echo "<string_value>";
+echo $<variable_name>;
+
+
+- A "variable" stores the result of an expression
+    - Defined using a prefix "$" then followed by a variable name
+
+    - Valid variable name
+        - Starts with a letter or underscore character (e.g. $name, $_name)
+        - Followed by a number of letters, numbers or underscore character
+
+    - Invalid variable name
+        - Starts with a number (e.g. $2name)
+        - Uses a PHP reserved keyword (e.g. $this, $class, $function)
+
+    - NOTE: PHP variable names are CASE-SENSITIVE
+        - e.g. $name !== $Name
+
+    - Variable naming conventions
+        - camelCase
+        - snake_case
+
+    - To assign a value to a variable
+        - Use the assignment "=" operator
+        - Followed by the value to be assigned
+        - e.g. $name = "Alice";
+        
+        - NOTE: This is expression is referred as an "assignment expression"
+
+Syntax:
+
+$<variable_name> = <assigned_value>;
+
+
+- The Concatenation operator "."
+    - Combines multiple string values into a single string value
+    - Can also combine string values inside a variable
+
+Syntax:
+
+"<string_value>" . "<string_value>";
+"<string_value>" . $<variable_name>;
+"<string_value>" . $<variable_name> . "<string_value>";
+
+
+- PHP's Arithmetic operators
+    - Addition          = "+"
+    - Subtraction       = "-"
+    - Multiplication    = "*"
+    - Division          = "/"
+    - Modulo            = "%"
+
+Syntax:
+
+<numeric_value> + <numeric_value>;
+<numeric_value> - <numeric_value>;
+<numeric_value> * <numeric_value>;
+<numeric_value> / <numeric_value>;
+<numeric_value> % <numeric_value>;
+
+
+- PHP's "Type Coercion"
+    - PHP IMPLICITLY typecasts the data type of a value into a compatible data type
+        - In order for the expression to successfully evaluated
+
+    - e.g. An integer value concatenated with a string value
+        - PHP implicitly typecasts the integer value into a string data type
+        - So that the expression where both values reside will be successfully evaluatedr
+
+
+- PHP's boolean values (e.g. true and false)
+    - Commonly used with a Comparison expression
+
+
+- PHP Ternary operator
+    - PHP's shorthand way of writing a simple "if-else" statement
+
+Syntax:
+
+<conditional_expression> ? <value_if_true> : <value_if_false>;
+
