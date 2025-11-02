@@ -1,0 +1,50 @@
+Practical Data Types
+--------------------
+- PHP function "var_dump()"
+    - Dumps information about a variable
+        - Data type
+        - Length of the value (if it is a string)
+        - Value
+
+    - It accepts multiple arguments
+        - Each separated by a comma
+        - Argument could be an expression, a value or variable
+
+    - Reference (https://www.php.net/manual/en/function.var-dump.php)
+
+Syntax:
+
+var_dump(<arg_1>, <arg_2>, ..., <arg_n>);
+var_dump(<arg_1>, <expression>);
+
+
+- In PHP, a non-zero (positive or negative) integer value
+    - ALWAYS evaluates to a boolean "true"
+
+
+- In PHP, a strict equality operator "==="
+    - First checks between two values if they have IDENTICAL data type
+        - Only then checks if their values are IDENTICAL
+
+    - NO type coercion occurs that will
+        - Evaluate an expression to become true
+
+
+- In PHP, an indexed array
+    - Has its 1st element (ALWAYS) located at index 0
+
+    - Accessing a specific element in an array
+        - Enclose its index key within a pair of [ ]
+        - e.g. array[0]
+
+    - Type coercion with array element
+        - Follows a precedence of data type used in evaluating an expression
+            - Float (high precedence)
+            - Integer
+            - String (low precedence)
+
+    - An array can be Type casted into a specific data type
+        - Declares the data type witin a pair of ( )
+        - Prefixing the element
+        - e.g. $scores = [85, (int) "90"];
+
