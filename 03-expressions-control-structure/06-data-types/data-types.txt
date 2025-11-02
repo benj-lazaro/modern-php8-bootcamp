@@ -1,0 +1,87 @@
+Data Types
+----------
+- Scalar (i.e. simple) types
+    - Integer
+        - Numbers with NO decimals
+
+    - Float
+        - Numbers with decimals
+
+    - String
+        - A string of characters
+        - Enclosed within a pair of ' ' or " "
+
+    - Boolean
+        - Two values = true or false
+
+
+- Compound types
+    - Array
+
+    - Object
+        - Created from a Class
+
+    - Instance of DateTime()
+
+
+- Array types
+    - Indexed
+        - Indexed with numbers that ALWAYS starts at 0
+        - e.g. [1, 2, 3, 4]
+        - e.g. ["a", "b", "c", "d"]
+
+    - Associative
+        - An array whose elements consists of
+            - A specific "key" with an associated "value"
+            - e.g. ["key" => "value"]
+        
+        - This is similar to Map types in other programming languages
+
+    - Multidimensional
+        - An array whose elements are arrays (i.e. nested arrays)
+        - e.g. [[1, 2,], [3, 4]]
+
+
+- Special types
+    - NULL
+        - Simply means an empty value
+        - Similar to JavaScript's "null" value
+
+    - resource
+        - The type returned when working with files
+
+
+- Data type behavior
+    - Implicit Type
+        - A value whose data type is NOT explicitly declared
+        - PHP implicitly assume the data type based on the value
+        - e.g. $number = 5;
+               $areYouHungry = true;
+
+    - Type Casting
+        - Converts the data type of a value to another data type (if applicable)
+        - Data type to be converted is declard within a pair of ( )
+        - e.g. $strValue = "55";
+               $intValue = (int) $strValue;
+
+    - Type Coercion
+        - Automatic type casting of a value to another data type (if aspplicable)
+        - e.g. "5" == 5;
+
+    - Strict vs Weak Typing
+        - Strict Type enforces data types on values
+            - Weak Type (default) allows implicit typing of values
+        
+        - To enable Strict Typing
+
+            declare(strict_types=1);
+            
+    - Explicit Type
+        - Explicitly declares the data type of a value
+        
+        - Common use case
+            - Function arguments
+            - Function return types
+            - Class fields or properties
+
+        - e.g. function foobar(int $id, string $name) {}
