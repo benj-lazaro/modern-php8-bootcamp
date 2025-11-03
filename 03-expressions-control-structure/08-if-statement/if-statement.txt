@@ -1,0 +1,32 @@
+Conditionals if Statement
+-------------------------
+- The "if" statement allows for the conditional execution of code fragment
+    - Reference (https://www.php.net/manual/en/control-structures.if.php)
+
+Syntax:
+
+if (<conditional_expression>) {
+    // expression or statement;
+    ...
+} elseif (<conditional_expression>) {
+    // expression or statement;
+    ...
+} else {
+    // expression or statement;
+    ...
+}
+
+// Alternative syntax
+if (<conditional_expression>): 
+    // expression or statement;
+    ...
+elseif (<conditional_expression>):
+    // expression or statement;
+    ...
+else:
+    // expression or statement;
+    ...
+endif;
+
+// One statement syntax
+if (<conditional_expression>) // expression or statement;
