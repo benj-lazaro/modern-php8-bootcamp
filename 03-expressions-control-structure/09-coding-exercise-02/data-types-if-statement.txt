@@ -1,0 +1,25 @@
+Coding Exercise 02: Practice Data Types & if Statement
+------------------------------------------------------
+- Create a simple grade calculator and a Pass / Fail checker program
+
+
+- Tasks:
+    - 1. Create a variable $score 
+        - Assign it a numeric value between 0 and 100
+
+    - 2. Use if-elseif-else statements 
+        - To determine the letter grade based on the following scale:
+
+            A: 90-100
+            B: 80-89
+            C: 70-79
+            D: 60-69
+            F: 0-59
+
+    - 3. Create a boolean variable $isPassing 
+        - Set it to true if the score is 60 or above, false otherwise
+
+    - 4. Use echo to print a message in the format: 
+    
+            "Score: [score], Grade: [letter grade], Passing: [true/false]"
+
