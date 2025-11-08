@@ -17,7 +17,3 @@ Quick Overview Of a PHP File
         } else {
             // statement;
         }
-
-    - Declaration of namespaces
-
-        namespace App\Models
